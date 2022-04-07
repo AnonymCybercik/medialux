@@ -1,0 +1,79 @@
+.single-service {
+    margin-left: 274px;
+    margin-bottom: 56px;
+    display: flex;
+    align-items: center;
+    .info-section-img {
+        width: 730px;
+        height: 619px;
+        display: flex;
+        justify-content: center;
+        background: #92bf2b;
+        border-radius: 33px;
+        margin-left: 107px;
+        img {
+            margin-left: 91px;
+        }
+    }
+    .info-section {
+        width: 625px;
+        font-weight: 700;
+        font-size: 32.2238px;
+        line-height: 39px;
+        color: #b6b6b6;
+    }
+}
+.imgs {
+    display: flex;
+
+    .sviper {
+        width: 85%;
+    }
+}
+.price-section {
+    display: flex;
+
+    .price-title {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        margin-top: 73px;
+        margin-bottom: 79px;
+        background: linear-gradient(90deg, #45ab39 0%, #92bf2b 116.46%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .text {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 35px;
+
+        color: #000000;
+    }
+
+    .price {
+        display: flex;
+        flex-direction: column;
+        width: 574px;
+    }
+}
+
+.map-title {
+    font-size: 64px;
+    line-height: 78px;
+
+    background: linear-gradient(90deg, #45ab39 0%, #92bf2b 116.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    background-clip: text;
+    margin-bottom: 41px;
+}
+
+.map-bg {
+    height: 826px;
+    display: flex;
+    background: linear-gradient(90deg, #b0cb1f 4.96%, #6bbe35 98.21%);
+}

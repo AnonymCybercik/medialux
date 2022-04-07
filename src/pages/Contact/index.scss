@@ -1,0 +1,36 @@
+.social-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+
+    background: linear-gradient(90deg, #45ab39 0%, #92bf2b 116.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    a {
+        margin: 30px;
+    }
+}
+.phones {
+    margin-top: 38px;
+    font-weight: 700;
+    font-size: 38.9804px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #b6b6b6;
+}
+.map{
+    border: 0;
+    border-radius: 27px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 61px;
+}

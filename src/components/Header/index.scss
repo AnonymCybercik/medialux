@@ -1,0 +1,107 @@
+.header {
+    z-index: 2;
+    height: 128px;
+    display: flex;
+    width: 100%;
+    background: linear-gradient(90deg, #b0cb1f 4.96%, #6bbe35 98.21%);
+    .logo {
+        margin-top: 22px;
+        margin-left: 11.875rem;
+
+        i {
+            display: none;
+        }
+    }
+    & ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        font-weight: 600;
+        margin-left: 20px;
+
+        & a {
+            display: inline-block;
+            padding-left: 49px;
+        }
+    }
+    & a {
+        text-decoration: none;
+        font-size: 22px;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .header {
+        .logo {
+            margin-left: 45px;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        height: 50px;
+        .logo {
+            position: relative;
+            background: none;
+            text-align: left;
+            margin-left: 10px;
+            margin-top: 0;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+                width: 62px;
+                height: 36px;
+                background: none;
+                margin-top: 5px;
+            }
+
+            &:hover {
+                background: none;
+                box-shadow: none;
+            }
+
+            i {
+                font-size: 36px;
+                color: #fff;
+                display: block;
+                padding: 7px;
+                width: 50px;
+                text-align: center;
+            }
+            i:hover{
+                box-shadow: inset 0px 0px 6.94047px rgba(0, 0, 0, 0.17);
+            }
+
+        }
+        display: block;
+        ul {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            text-align: center;
+            z-index: 1;
+            margin-left: 0;
+            transition: 0.5s;
+            margin-left: 100%;
+
+            a {
+                width: 100%;
+                background: #92bf2b;
+                padding: 10px 0;
+                font-size: 14px;
+
+            }
+            a:hover {
+                background: #a6d33e;
+                box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.07);
+            }
+        }
+    }
+}

@@ -1,0 +1,184 @@
+.about-banner {
+    background: url("../../assets/images/about.png");
+    width: 100%;
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    & .about-caption {
+        position: absolute;
+        margin-left: 397px;
+        margin-top: 48px;
+
+        & .about-title {
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 78px;
+            /* identical to box height */
+
+            background: linear-gradient(90deg, #45ab39 0%, #92bf2b 116.46%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        & .about-text {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #c1c1c1;
+            width: 704px;
+        }
+    }
+}
+.about-info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .about-info-item {
+        width: 394.03px;
+        padding: 0 50px;
+        font-weight: 400;
+        font-size: 22.6235px;
+        line-height: 28px;
+
+        & .title {
+            color: #6bbe35;
+            font-weight: 700;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    background: linear-gradient(90deg, #45ab39 0%, #92bf2b 116.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    padding-bottom: 91px;
+    margin-top: 49px;
+}
+
+.about-sub-title {
+    font-weight: 700;
+    font-size: 22.9996px;
+    line-height: 28px;
+    color: #c1c1c1;
+    width: 70%;
+    margin-left: 237px;
+}
+
+.directions {
+    display: flex;
+
+    & .text {
+        width: 50%;
+        margin-left: 237px;
+
+        ul {
+            list-style: none;
+
+            & li::before {
+                content: "⬤";
+                color: #68b433;
+                font-weight: bold;
+                display: inline-block;
+                margin-right: 10px;
+                font-size: 16px;
+            }
+            & li {
+                font-weight: 700;
+                font-size: 22.9996px;
+                line-height: 28px;
+                padding: 10px;
+
+                color: #c1c1c1;
+            }
+        }
+    }
+}
+
+.kompleks {
+    display: flex;
+    padding-bottom: 108px;
+    ul {
+        list-style: none;
+        margin-left: 237px;
+        margin-top: 65px;
+
+        & li::before {
+            content: "⬤";
+            color: #68b433;
+            font-weight: bold;
+            display: inline-block;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+        & li {
+            font-weight: 700;
+            font-size: 22.9996px;
+            line-height: 28px;
+            padding: 10px;
+
+            color: #c1c1c1;
+        }
+    }
+}
+
+.info-block {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    .block-item {
+        padding: 50px 30px;
+
+        & .title-green {
+            font-size: 22.7267px;
+            line-height: 28px;
+            text-align: center;
+            font-weight: 700;
+            background: linear-gradient(90deg, #45ab39 0%, #92bf2b 116.46%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            padding-bottom: 26px;
+        }
+        .title {
+            font-weight: 700;
+            font-size: 22.7267px;
+            line-height: 28px;
+            text-align: center;
+            color: #ffffff;
+            padding-bottom: 26px;
+        }
+        & .text-dark {
+            font-weight: 700;
+            font-size: 20.894px;
+            line-height: 25px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        & .text-light {
+            font-weight: 700;
+            font-size: 20.894px;
+            line-height: 25px;
+            text-align: center;
+            color: #c1c1c1;
+        }
+    }
+
+    .dark {
+        background: linear-gradient(180deg, #92bf2b 0%, #68b433 100%);
+    }
+    .light {
+        background: #e9e9e9;
+    }
+}

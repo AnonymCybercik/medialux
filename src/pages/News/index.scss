@@ -1,0 +1,14 @@
+.news-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    padding: 51px 251px;
+    background: linear-gradient(90deg, #45ab39 0%, #92bf2b 116.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.news-box{
+    display: flex;
+    margin: 0 151px;
+}

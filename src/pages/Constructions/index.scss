@@ -1,0 +1,41 @@
+.services-box {
+    background: linear-gradient(90deg, #b0cb1f 4.96%, #6bbe35 98.21%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding-bottom: 48px;
+    margin-bottom: 48px;
+
+    .service-item {
+        width: 535px;
+        height: 401px;
+        display: inline-block;
+        margin: 42px;
+        text-decoration: none;
+        background: #ffffff;
+        border-radius: 33px;
+
+        .text {
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 34px;
+            text-align: center;
+            color: #ffffff;
+            margin-top: 21px;
+        }
+
+        .img-box {
+            display: flex;
+            justify-content: center;
+
+            .services-image {
+                width: 360px;
+                height: 401px;
+                background-size: cover !important;
+                background-position: center !important;
+                background-repeat: no-repeat !important;
+            }
+        }
+    }
+}

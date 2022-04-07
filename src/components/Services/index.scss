@@ -1,0 +1,112 @@
+.mobile {
+    display: none;
+}
+
+.services {
+    z-index: 2;
+    margin-top: 88px;
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    .info-title {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.3499px;
+        line-height: 38px;
+        background: linear-gradient(90deg, #45ab39 0%, #92bf2b 116.46%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .info-text {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15.6749px;
+        line-height: 19px;
+        margin-top: 22px;
+        color: #c1c1c1;
+    }
+    .service-box {
+        .desktop {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .service-item {
+            margin-left: 25px;
+            margin-top: 27px;
+            width: 377.94px;
+            height: 295.21px;
+            background: #68b433;
+            box-shadow: 4.35415px 8.7083px 10.45px rgba(0, 0, 0, 0.25);
+            border-radius: 14.8041px;
+
+            img {
+                margin-top: 34px;
+                filter: invert(1) sepia(1) saturate(0);
+            }
+
+            .service-title {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20.8999px;
+                line-height: 25px;
+                color: #ffffff;
+                width: 343px;
+                margin-top: 27px;
+                margin-left: 17.42px;
+            }
+            .service-text {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 400;
+                margin-top: 10px;
+                font-size: 15.6749px;
+                color: #ffffff;
+                line-height: 19px;
+                margin-left: 17.42px;
+                width: 343px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .services {
+        margin-top: 275px;
+
+        .service-item {
+            width: 128px !important;
+            height: 122px !important;
+            background: #92bf2b !important;
+            .info-title {
+                font-size: 17px;
+            }
+            .info-text {
+                font-size: 15px;
+                margin-top: 6px;
+            }
+
+            .service-title {
+                font-size: 16px !important;
+                width: 0 !important;
+                text-align: center;
+            }
+        }
+    }
+    .service-box {
+        .mobile {
+            display: block;
+        }
+        .desktop {
+            display: none !important;
+        }
+    }
+}
