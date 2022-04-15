@@ -81,7 +81,7 @@
         }
         display: block;
         ul {
-            position: relative;
+            position: absolute;
             display: flex;
             flex-direction: column;
             width: 100%;
@@ -89,7 +89,7 @@
             z-index: 1;
             margin-left: 0;
             transition: 0.5s;
-            margin-left: 100%;
+            left: -100%;
 
             a {
                 width: 100%;

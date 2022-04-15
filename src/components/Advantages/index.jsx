@@ -19,15 +19,15 @@ function index() {
                 </div>
                 <div className="advantage-items">
                     <div><img src={img1070} alt="" className="img2" /></div>
-                    <div>Рекламных полей</div>
+                    <div className="text">Рекламных полей</div>
                 </div>
                 <div className="advantage-items">
                     <div><img src={img1028} alt="" className="img3" /></div>
-                    <div>Доверенныx клиентoв</div>
+                    <div className="text">Доверенныx клиентoв</div>
                 </div>
                 <div className="advantage-items">
                     <div><img src={img134} width="245px" height="91px" alt="" className="img4" /></div>
-                    <div>ЕЖЕМЕСЯЧНОЙ АУДИТОРИИ</div>
+                    <div className="text">ЕЖЕМЕСЯЧНОЙ АУДИТОРИИ</div>
                 </div>
             </div>
         </div>

@@ -12,7 +12,7 @@ import "swiper/css/autoplay";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { Autoplay, Navigation ,Pagination, Scrollbar, A11y } from "swiper";
+import { Autoplay, Navigation, Pagination, Scrollbar, A11y } from "swiper";
 
 function index() {
     return (
@@ -26,7 +26,9 @@ function index() {
                 <div className="service-box">
                     <ul>
                         <li className="outdoor">НАРУЖНАЯ РЕКЛАМА</li>
-                        <li className="metro">РЕКЛАМА В МЕТРОПОЛИТЕНЕ Г. ТАШКЕНТ</li>
+                        <li className="metro">
+                            РЕКЛАМА В МЕТРОПОЛИТЕНЕ Г. ТАШКЕНТ
+                        </li>
                         <li className="tv">РЕКЛАМА НА ТЕЛЕВИДЕНИИ</li>
                         <li className="biglater">ШИРОКОФОРМАТНАЯ ПЕЧАТЬ</li>
                         <li className="eskiz">РАЗРЕШЕНИЕ НА ЭСКИЗ</li>
@@ -47,6 +49,63 @@ function index() {
             </section>
 
             <section className="price">
+                <div className="imgs">
+                    <Swiper
+                        modules={[Autoplay, Scrollbar]}
+                        scrollbar={{ draggable: true }}
+                        slidesPerView={1}
+                        autoplay
+                    >
+                        <SwiperSlide className="slide-item">
+                            <img
+                                src={service}
+                                height="520px"
+                                width="820px"
+                                alt=""
+                            />
+                        </SwiperSlide>
+                        <SwiperSlide className="slide-item">
+                            <img
+                                src={service}
+                                height="520px"
+                                width="820px"
+                                alt=""
+                            />
+                        </SwiperSlide>
+                        <SwiperSlide className="slide-item">
+                            <img
+                                src={service}
+                                height="520px"
+                                width="820px"
+                                alt=""
+                            />
+                        </SwiperSlide>
+                        <SwiperSlide className="slide-item">
+                            <img
+                                src={service}
+                                height="520px"
+                                width="820px"
+                                alt=""
+                            />
+                        </SwiperSlide>
+                        <SwiperSlide className="slide-item">
+                            <img
+                                src={service}
+                                height="520px"
+                                width="820px"
+                                alt=""
+                            />
+                        </SwiperSlide>
+                        <SwiperSlide className="slide-item">
+                            <img
+                                src={service}
+                                height="520px"
+                                width="820px"
+                                alt=""
+                            />
+                        </SwiperSlide>
+                    </Swiper>
+                </div>
                 <div className="text">
                     <div className="main-title">Преимущества и особенности</div>
                     <div className="title">
@@ -62,33 +121,6 @@ function index() {
                         <li>Высокое качество подачи информации</li>
                         <li>Географическое таргетирование рекламы</li>
                     </ul>
-                </div>
-                <div className="imgs">
-                    <Swiper
-                        modules={[Autoplay, Scrollbar]}
-                        scrollbar={{draggable:true}}
-                        slidesPerView={1}
-                        autoplay
-                    >
-                        <SwiperSlide className="slide-item">
-                            <img src={service} height="520px" width="820px" alt="" />
-                        </SwiperSlide>
-                        <SwiperSlide className="slide-item">
-                            <img src={service} height="520px" width="820px" alt="" />
-                        </SwiperSlide>
-                        <SwiperSlide className="slide-item">
-                            <img src={service} height="520px" width="820px" alt="" />
-                        </SwiperSlide>
-                        <SwiperSlide className="slide-item">
-                            <img src={service} height="520px" width="820px" alt="" />
-                        </SwiperSlide>
-                        <SwiperSlide className="slide-item">
-                            <img src={service} height="520px" width="820px" alt="" />
-                        </SwiperSlide>
-                        <SwiperSlide className="slide-item">
-                            <img src={service} height="520px" width="820px" alt="" />
-                        </SwiperSlide>
-                    </Swiper>
                 </div>
             </section>
 

@@ -79,7 +79,7 @@ function index() {
                         </div>
                     </div>
                     <div className="mobile">
-                        <Swiper slidesPerView="3" spaceBetween={50}>
+                        <Swiper slidesPerView="2">
                             <SwiperSlide>
                                 <div className="service-item">
                                     <div className="service-title">

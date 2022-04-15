@@ -160,40 +160,59 @@
     }
     .additional-info-box {
         margin-top: 62px;
-        
+
         .add-title {
             font-size: 1rem;
-            width: 186.95px;
+            width: 155px;
             margin-right: 0;
             line-height: 19px;
         }
         .add {
-            font-size: 9px;
+            font-size: 10px;
             line-height: 19px;
             margin: 0;
             width: auto;
-            
         }
-        .call , .tg {
+        .call,
+        .tg {
             padding: 0 !important;
-            }
-        span:nth-child(2),span:nth-child(3){
+            font-size: 14px;
+            width: 100px;
+        }
+        span:nth-child(2),
+        span:nth-child(3) {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
             flex-direction: column;
             text-align: center;
         }
-        span:nth-child(2) {
-            margin-right: 53px;
 
-        }
         span {
-            
+            height: 100px;
             img {
-                width: 33.64px;
-                height: 33.64px;
+                width: 48px;
+                height: 48px;
             }
         }
+    }
+
+    .partners{
+        margin-top: 275px;
+        .slide {
+            width: 100%;
+        }
+        .title {
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+        .slide-item {
+            img {
+                width: 64px;
+            }
+        }
+    }
+    .footer-image {
+        height: 235px;
     }
 }

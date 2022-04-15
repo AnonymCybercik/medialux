@@ -75,20 +75,19 @@
     margin-left: 235px;
     display: flex;
     padding-bottom: 100px;
-    .text{
+    .text {
         width: 50%;
+        margin-left: 103px;
     }
-    .imgs{
+    .imgs {
         margin-top: 84px;
-        position: absolute;
-        width: 42%;
-        left: 50%;
+        position: relative;
+        width: 50%;
     }
     .main-title {
         font-weight: 700;
         font-size: 36px;
         line-height: 144.9%;
-        /* or 52px */
         margin-top: 58px;
         margin-bottom: 38px;
         color: #97c626;
@@ -108,12 +107,12 @@
     }
     ul li::before {
         content: "⬤";
-        color: #68B433;
+        color: #68b433;
         font-weight: bold;
         display: inline-block;
         font-size: 16px;
         margin-right: 10px;
-      }
+    }
     ul li {
         font-weight: 700;
         font-size: 22.9996px;
@@ -121,5 +120,100 @@
         padding: 10px;
 
         color: #c1c1c1;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .advertisement {
+        display: none;
+    }
+    .our-services {
+        .title {
+            font-weight: 700;
+            font-size: 16px !important;
+            line-height: 20px;
+            margin: 20px 0;
+            width: 100%;
+            text-align: center;
+        }
+        .imagebox {
+            width: 100%;
+        }
+
+        ul {
+            margin-left: 0;
+            width: 100%;
+            text-align: center;
+            li {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 145.9%;
+                width: 100%;
+                padding: 8px 0;
+                background: #92bf2b;
+                color: #fff;
+            }
+            li:hover {
+                background: #a6d33e;
+                box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.07);
+            }
+        }
+    }
+    .service-box {
+        flex-direction: column;
+    }
+    .price {
+        margin-left: 0;
+        flex-direction: column;
+        padding-bottom: 30px;
+        
+        .imgs {
+            margin-top: 50px;
+            position: relative;
+            width: 100%;
+            left: 0%;
+            height: 440px;
+        }
+        .text {
+            width: 95%;
+            margin-left: 17px;
+            .main-title {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 144.9%;
+                text-align: center;
+                margin-bottom: 31px;
+                margin-top: 24px;
+            }
+            .title {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 144.9%;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            ul {
+                width: 100%;
+                li {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 20px;
+                    width: 100%;
+                    padding: 10px 0 ;
+                }
+            }
+        }
+    }
+    .service-info {
+        margin-top: 41px;
+        background: none;
+        height: auto;
+        div {
+            color: #92bf2b;
+            font-size: 16px;
+            line-height: 20px;
+            width: 22.25rem;
+        }
     }
 }

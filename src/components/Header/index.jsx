@@ -12,11 +12,11 @@ function Header() {
         var menu = document.getElementById("mobile__menu")
     
         if (menubar) {
-            menu.style.marginLeft = "0"
+            menu.style.left = "0%"
             setMenubar(false)
         }
         else{
-            menu.style.marginLeft = "100%"
+            menu.style.left = "-100%"
             setMenubar(true)
         }
     }
